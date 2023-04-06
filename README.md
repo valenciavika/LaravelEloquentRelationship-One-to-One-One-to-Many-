@@ -7,6 +7,7 @@ Laravel Eloquent Relationship
 Page yang dibuat merupakan page review dan rating restoran yang memuat satu tabel dengan 4 kolom/variabel yaitu owner, nama restoran, alamat, dan rating. Setiap variabel (nama owner, nama resto, alamat, rating, konten) digenerate dengan menggunakan function "faker".
 - One to one: Ada 10 owner dan setiap owner masing-masing memiliki satu restoran 
 - One to many: Setiap restoran memiliki 3 review (rating dan content)
+Karena kedua relationship ini kasusnya berhubungan, maka hanya ada satu page (1 seeder, 1 controller, 3 model+tabel+factory yang digunakan)
 
 
 Page Screenshots
